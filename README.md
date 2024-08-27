@@ -10,3 +10,8 @@ npm install
 ```
 npm run dev
 ```
+
+## Production Url
+```
+https://react-todo-weld-zeta.vercel.app/
+```
