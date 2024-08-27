@@ -31,12 +31,12 @@ function App() {
         const id = nanoid()
 
         if (!name) {
-            toast.error("名前が必要です.", { duration: 1000 })
+            toast.error("タスク名が必要です.", { duration: 2000 })
             return
         }
 
         if (!date) {
-            toast.error("日付が必要です.", { duration: 1000 })
+            toast.error("日付が必要です.", { duration: 2000 })
             return
         }
 
@@ -71,7 +71,7 @@ function App() {
                     <div className='border p-5 shadow-sm rounded-md mt-5'>
                         <form className="flex  gap-2 items-end" onSubmit={handdleSubmit}>
                             <div className="flex-1">
-                                <label htmlFor="name" className="block mb-2 text-sm  text-gray-600 font-semibold dark:text-white">名前</label>
+                                <label htmlFor="name" className="block mb-2 text-sm  text-gray-600 font-semibold dark:text-white">タスク名</label>
                                 <input placeholder='タスクを入力してください' type="text" id="name" name='name' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
                             </div>
                             <div className="flex-1">
