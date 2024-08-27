@@ -1,5 +1,5 @@
 # React Todo
-***Developed by waiyanlin for assigement**
+***Developed by waiyanlin for assigement***
 
 ## install required dependicies
 ```
